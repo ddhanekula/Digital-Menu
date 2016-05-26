@@ -14,6 +14,9 @@
 		A16B749F1AD7392B008FF48B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16B749E1AD7392B008FF48B /* Images.xcassets */; };
 		A16B74A21AD7392B008FF48B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A16B74A01AD7392B008FF48B /* LaunchScreen.xib */; };
 		A16B74AE1AD7392B008FF48B /* IOS_Final_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B74AD1AD7392B008FF48B /* IOS_Final_projectTests.swift */; };
+		A16B74BA1AD73B1F008FF48B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B74B91AD73B1F008FF48B /* AddViewController.swift */; };
+		A16B74BE1AD74D3D008FF48B /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B74BD1AD74D3D008FF48B /* detailViewController.swift */; };
+		A16B74C41AD76A0D008FF48B /* Restarents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B74C31AD76A0D008FF48B /* Restarents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A16B748F1AD7392A008FF48B /* IOS Final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16B748F1AD7392A008FF48B /* Degital Mennu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Degital Mennu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16B74931AD7392A008FF48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16B74941AD7392A008FF48B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A16B74971AD7392B008FF48B /* IOS_Final_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOS_Final_project.xcdatamodel; sourceTree = "<group>"; };
@@ -35,9 +38,12 @@
 		A16B749C1AD7392B008FF48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A16B749E1AD7392B008FF48B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A16B74A11AD7392B008FF48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A16B74A71AD7392B008FF48B /* IOS Final projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS Final projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16B74A71AD7392B008FF48B /* Degital Mennu.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Degital Mennu.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16B74AC1AD7392B008FF48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16B74AD1AD7392B008FF48B /* IOS_Final_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Final_projectTests.swift; sourceTree = "<group>"; };
+		A16B74B91AD73B1F008FF48B /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		A16B74BD1AD74D3D008FF48B /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		A16B74C31AD76A0D008FF48B /* Restarents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restarents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +76,8 @@
 		A16B74901AD7392A008FF48B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A16B748F1AD7392A008FF48B /* IOS Final project.app */,
-				A16B74A71AD7392B008FF48B /* IOS Final projectTests.xctest */,
+				A16B748F1AD7392A008FF48B /* Degital Mennu.app */,
+				A16B74A71AD7392B008FF48B /* Degital Mennu.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +87,13 @@
 			children = (
 				A16B74941AD7392A008FF48B /* AppDelegate.swift */,
 				A16B74991AD7392B008FF48B /* ViewController.swift */,
+				A16B74B91AD73B1F008FF48B /* AddViewController.swift */,
 				A16B749B1AD7392B008FF48B /* Main.storyboard */,
+				A16B74BD1AD74D3D008FF48B /* detailViewController.swift */,
 				A16B749E1AD7392B008FF48B /* Images.xcassets */,
 				A16B74A01AD7392B008FF48B /* LaunchScreen.xib */,
 				A16B74961AD7392B008FF48B /* IOS_Final_project.xcdatamodeld */,
+				A16B74C31AD76A0D008FF48B /* Restarents.swift */,
 				A16B74921AD7392A008FF48B /* Supporting Files */,
 			);
 			path = "IOS Final project";
@@ -118,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A16B748E1AD7392A008FF48B /* IOS Final project */ = {
+		A16B748E1AD7392A008FF48B /* Degital Mennu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A16B74B11AD7392B008FF48B /* Build configuration list for PBXNativeTarget "IOS Final project" */;
+			buildConfigurationList = A16B74B11AD7392B008FF48B /* Build configuration list for PBXNativeTarget "Degital Mennu" */;
 			buildPhases = (
 				A16B748B1AD7392A008FF48B /* Sources */,
 				A16B748C1AD7392A008FF48B /* Frameworks */,
@@ -130,14 +139,14 @@
 			);
 			dependencies = (
 			);
-			name = "IOS Final project";
+			name = "Degital Mennu";
 			productName = "IOS Final project";
-			productReference = A16B748F1AD7392A008FF48B /* IOS Final project.app */;
+			productReference = A16B748F1AD7392A008FF48B /* Degital Mennu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A16B74A61AD7392B008FF48B /* IOS Final projectTests */ = {
+		A16B74A61AD7392B008FF48B /* Degital MennuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A16B74B41AD7392B008FF48B /* Build configuration list for PBXNativeTarget "IOS Final projectTests" */;
+			buildConfigurationList = A16B74B41AD7392B008FF48B /* Build configuration list for PBXNativeTarget "Degital MennuTests" */;
 			buildPhases = (
 				A16B74A31AD7392B008FF48B /* Sources */,
 				A16B74A41AD7392B008FF48B /* Frameworks */,
@@ -148,9 +157,9 @@
 			dependencies = (
 				A16B74A91AD7392B008FF48B /* PBXTargetDependency */,
 			);
-			name = "IOS Final projectTests";
+			name = "Degital MennuTests";
 			productName = "IOS Final projectTests";
-			productReference = A16B74A71AD7392B008FF48B /* IOS Final projectTests.xctest */;
+			productReference = A16B74A71AD7392B008FF48B /* Degital Mennu.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -159,6 +168,8 @@
 		A16B74871AD7392A008FF48B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Student;
 				TargetAttributes = {
@@ -171,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A16B748A1AD7392A008FF48B /* Build configuration list for PBXProject "IOS Final project" */;
+			buildConfigurationList = A16B748A1AD7392A008FF48B /* Build configuration list for PBXProject "Degital Mennu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +195,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A16B748E1AD7392A008FF48B /* IOS Final project */,
-				A16B74A61AD7392B008FF48B /* IOS Final projectTests */,
+				A16B748E1AD7392A008FF48B /* Degital Mennu */,
+				A16B74A61AD7392B008FF48B /* Degital MennuTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,9 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16B74BA1AD73B1F008FF48B /* AddViewController.swift in Sources */,
 				A16B749A1AD7392B008FF48B /* ViewController.swift in Sources */,
+				A16B74C41AD76A0D008FF48B /* Restarents.swift in Sources */,
 				A16B74981AD7392B008FF48B /* IOS_Final_project.xcdatamodeld in Sources */,
 				A16B74951AD7392A008FF48B /* AppDelegate.swift in Sources */,
+				A16B74BE1AD74D3D008FF48B /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +248,7 @@
 /* Begin PBXTargetDependency section */
 		A16B74A91AD7392B008FF48B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A16B748E1AD7392A008FF48B /* IOS Final project */;
+			target = A16B748E1AD7392A008FF48B /* Degital Mennu */;
 			targetProxy = A16B74A81AD7392B008FF48B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,7 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IOS Final project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Degital Mennu";
 			};
 			name = Debug;
 		};
@@ -354,7 +368,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IOS Final project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Degital Mennu";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};
@@ -372,8 +387,8 @@
 				);
 				INFOPLIST_FILE = "IOS Final projectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS Final project.app/IOS Final project";
+				PRODUCT_NAME = "Degital Mennu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Degital Mennu.app/Degital Mennu";
 			};
 			name = Debug;
 		};
@@ -387,15 +402,15 @@
 				);
 				INFOPLIST_FILE = "IOS Final projectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS Final project.app/IOS Final project";
+				PRODUCT_NAME = "Degital Mennu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Degital Mennu.app/Degital Mennu";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A16B748A1AD7392A008FF48B /* Build configuration list for PBXProject "IOS Final project" */ = {
+		A16B748A1AD7392A008FF48B /* Build configuration list for PBXProject "Degital Mennu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A16B74AF1AD7392B008FF48B /* Debug */,
@@ -404,21 +419,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A16B74B11AD7392B008FF48B /* Build configuration list for PBXNativeTarget "IOS Final project" */ = {
+		A16B74B11AD7392B008FF48B /* Build configuration list for PBXNativeTarget "Degital Mennu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A16B74B21AD7392B008FF48B /* Debug */,
 				A16B74B31AD7392B008FF48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A16B74B41AD7392B008FF48B /* Build configuration list for PBXNativeTarget "IOS Final projectTests" */ = {
+		A16B74B41AD7392B008FF48B /* Build configuration list for PBXNativeTarget "Degital MennuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A16B74B51AD7392B008FF48B /* Debug */,
 				A16B74B61AD7392B008FF48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
